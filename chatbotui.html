@@ -66,9 +66,8 @@
 		document.getElementById("wisdom").focus();
 
 		// Initialize the Amazon Cognito credentials provider
-		AWS.config.region = 'us-central-1'; // Region
+		AWS.config.region = 'eu-central-1'; // Region
 		AWS.config.credentials = new AWS.CognitoIdentityCredentials({
-		// Provide your Pool Id here
 			IdentityPoolId: 'eu-central-1:60313658-89c8-4cf4-906e-7c1590bd4a4e',
 		});
 
